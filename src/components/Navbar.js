@@ -19,7 +19,6 @@ const Navbar = (props) => {
           <li className="nav-item">
             <Link className="nav-link" to="/About">{props.About}</Link>
           </li>
-     
         </ul>
 {/* toogle button */}
 {/* <div class={`form-check form-switch text-${props.mode} mx-2`}>   -----------here i want reverse functinality for the text*/}

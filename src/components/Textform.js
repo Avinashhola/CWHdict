@@ -18,6 +18,7 @@ const Textform = (props) => {
         setVal(newVal);
         props.showAlertsy(" Content Got Cleared ", "warning")
     };
+    
     const handleCpyClick = () => {
         let val = document.getElementById("exampleFormControlTextarea1");  //this step not req as we are using navigator below
         val.select();             //this step not req as we are using navigator below
